@@ -20,3 +20,10 @@ print(peter.name)
 print(peter.power)
 print(peter.energy)
 print(peter.hands)
+
+# мы можем экземпляру присвоить свои атрибуты
+peter.name = 'Peter Parker'
+peter.power = 70
+# и даже те, которых изначально нет в самом классе
+peter.alias = 'Spider-Man'
+print(peter.alias)
